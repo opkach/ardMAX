@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.258371, 574.207642, 153.0, 43.0 ],
-					"text" : "/osc1 0.21",
+					"text" : "/osc1 0.00",
 					"textjustification" : 1
 				}
 
@@ -126,7 +126,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.258371, 536.207642, 138.0, 18.0 ],
-					"text" : "/oscSOURCE1 0.21",
+					"text" : "/osc1 0.003922",
 					"varname" : "osc1"
 				}
 
@@ -182,7 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.094879, 373.777405, 80.0, 18.0 ],
+					"patching_rect" : [ 382.094879, 366.777405, 80.0, 18.0 ],
 					"text" : "set 127.0.0.1"
 				}
 
@@ -212,7 +212,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 382.094879, 399.777405, 190.0, 38.0 ],
+					"patching_rect" : [ 382.094879, 384.777405, 189.999969, 50.430237 ],
 					"text" : "127.0.0.1",
 					"textjustification" : 1
 				}
@@ -254,7 +254,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 572.094849, 506.777405, 100.0, 18.0 ],
-					"text" : "port 8001"
+					"text" : "port 7000"
 				}
 
 			}
@@ -341,8 +341,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 572.094849, 399.777405, 190.0, 38.0 ],
-					"text" : "8001",
+					"patching_rect" : [ 572.094849, 384.777405, 189.999969, 50.430237 ],
+					"text" : "7000",
 					"textjustification" : 1
 				}
 
@@ -419,12 +419,12 @@
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-8",
-					"linecount" : 8,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 429.85199, 125.940704, 397.0, 203.0 ],
-					"text" : "1) upload ardMAX_ThruArduinoOSC2csound.ino \n2) update ports\n3) select arduino\n4) turn on metro\n5) update udpsend ip & port\n    - bang : defaults to localhost settings\n6) open data gate"
+					"patching_rect" : [ 429.85199, 125.940704, 397.0, 179.0 ],
+					"text" : "1) upload SensorOSC2csound.ino \n2) update ports\n3) select arduino\n4) turn on metro\n5) update udpsend ip & port\n    - bang : defaults to localhost settings\n6) open data gate"
 				}
 
 			}
@@ -455,7 +455,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 166.852005, 564.207642, 143.449463, 63.0 ],
-					"text" : "data :\nfrom arduino",
+					"text" : "sensor data :\nfrom arduino",
 					"textjustification" : 1
 				}
 
@@ -953,7 +953,7 @@
 					"framecolor" : [ 0.74902, 0.705882, 0.662745, 1.0 ],
 					"hltcolor" : [ 0.74902, 0.705882, 0.662745, 1.0 ],
 					"id" : "obj-1129",
-					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "K-BOW-03e8-AMP-SPP", ",", "Bluetooth-Modem", ",", "I-CubeXWi-microDig0300-", ",", "Bluetooth-PDA-Sync" ],
+					"items" : [ "usbmodemfa131", ",", "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem", ",", "I-CubeXWi-microDig0300-", ",", "K-BOW-03e8-AMP-SPP" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1005,7 +1005,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.258371, 397.207642, 96.581543, 18.0 ],
-					"text" : "104, 104"
+					"text" : "\"1\""
 				}
 
 			}
@@ -1192,7 +1192,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 429.85199, 125.940704, 397.0, 203.0 ],
+					"patching_rect" : [ 429.85199, 125.940704, 397.0, 179.0 ],
 					"rounded" : 5
 				}
 
